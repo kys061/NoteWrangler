@@ -1,0 +1,16 @@
+1. Four Steps to Route Happiness
+  - using ngView
+  - Loading the ngRoute library
+  - Importing ngRoute module
+  - Defining routes
+
+1-1. using ngView
+  <div ng-view></div>
+
+1-2. Loading the ngRoute library
+  <script src="angular-route.js">
+
+1-3. Including ngRoute in Our app
+  angular.module("moduleName", ['ngRoute'])
+
+1-4. defining routes
